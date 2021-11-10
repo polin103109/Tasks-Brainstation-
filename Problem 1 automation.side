@@ -1,0 +1,267 @@
+{
+  "id": "3242a217-185b-416a-9670-e28e5bf6f6d5",
+  "version": "2.0",
+  "name": "Problem 1 automation",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "59cb23ca-e063-4c17-98ca-299feaa9d034",
+    "name": "Testing",
+    "commands": [{
+      "id": "49fd0008-d433-44c8-af11-b07e58d952ef",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f3a6867-7a49-4207-bd25-68f860789e1f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59ab076d-f3d5-4903-bdb6-241ccfb287da",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ww"
+    }, {
+      "id": "f966c271-be26-4b9b-9aed-03e85a0ff9fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbhl b",
+      "targets": [
+        ["css=.sbhl b", "css:finder"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'w.phptravels.net')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "150a4084-5bc9-4885-8c42-a9a519f1a1fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > .tF2Cxc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(3) > .tF2Cxc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'PHPTRAVELS - PHPTRAVELS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da8a5147-b885-47d4-b120-1966fd810a0b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tours",
+      "targets": [
+        ["linkText=Tours", "linkText"],
+        ["css=nav li:nth-child(4) > .waves-effect", "css:finder"],
+        ["xpath=//a[contains(text(),'Tours')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/tours')]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tours')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "400412eb-beaf-46ec-a64c-874a763615ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c733615a-f9ce-49a5-be6e-64bebb066a3f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Johor B"
+    }, {
+      "id": "957e037c-8035-41e9-9e7c-9c6c9c5105ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ladda-label",
+      "targets": [
+        ["css=.ladda-label", "css:finder"],
+        ["xpath=//button[@id='submit']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,' Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bba1048-21ea-40d1-b315-eca6b95ccc3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=date",
+      "targets": [
+        ["id=date", "id"],
+        ["name=checkin", "name"],
+        ["css=#date", "css:finder"],
+        ["xpath=//input[@id='date']", "xpath:attributes"],
+        ["xpath=//form[@id='tours-search']/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5bfb94e-8a52-416e-bc84-840b65239e52",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > .day:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(4) > .day:nth-child(2)", "css:finder"],
+        ["xpath=//tr[4]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'22')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "854d9500-895f-449a-a9b8-3bd0efe1afa0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-toggle > p",
+      "targets": [
+        ["css=.dropdown-toggle > p", "css:finder"],
+        ["xpath=//form[@id='tours-search']/div/div/div[3]/div/div/div/a/p", "xpath:idRelative"],
+        ["xpath=//a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Travellers 0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5d0bce6-695b-461a-8c07-f95cec0b981f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-item:nth-child(1) .qtyInc > .la",
+      "targets": [
+        ["css=.dropdown-item:nth-child(1) .qtyInc > .la", "css:finder"],
+        ["xpath=//form[@id='tours-search']/div/div/div[3]/div/div/div/div/div/div/div/div[2]/i", "xpath:idRelative"],
+        ["xpath=//div[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1965d026-257a-4126-af6e-13cd5c9cd134",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-item:nth-child(1) .qtyInc > .la",
+      "targets": [
+        ["css=.dropdown-item:nth-child(1) .qtyInc > .la", "css:finder"],
+        ["xpath=//form[@id='tours-search']/div/div/div[3]/div/div/div/div/div/div/div/div[2]/i", "xpath:idRelative"],
+        ["xpath=//div[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "565203f7-60b7-4456-9fad-b6862f77e6c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='tours-search']/div/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2e56f9b-0b61-48f7-97e9-7e878c286d39",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#submit > .ladda-label",
+      "targets": [
+        ["css=#submit > .ladda-label", "css:finder"],
+        ["xpath=//button[@id='submit']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d981bf5d-a6c1-4729-9c00-ea94586b4251",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#submit > .ladda-label",
+      "targets": [
+        ["css=#submit > .ladda-label", "css:finder"],
+        ["xpath=//button[@id='submit']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa1c60c2-48a5-427d-a2bb-768568245e4a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#legoland\\ malaysia\\ day\\ pass .col-4 .la",
+      "targets": [
+        ["css=#legoland\\ malaysia\\ day\\ pass .col-4 .la", "css:finder"],
+        ["xpath=//li[@id='legoland malaysia day pass']/div/div[2]/div/div[2]/div/a/span/i", "xpath:idRelative"],
+        ["xpath=//li[6]/div/div[2]/div/div[2]/div/a/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc47ad91-2269-41c3-ab37-143f2ea89321",
+      "comment": "",
+      "command": "click",
+      "target": "css=#legoland\\ malaysia\\ day\\ pass .col-4 .la",
+      "targets": [
+        ["css=#legoland\\ malaysia\\ day\\ pass .col-4 .la", "css:finder"],
+        ["xpath=//li[@id='legoland malaysia day pass']/div/div[2]/div/div[2]/div/a/span/i", "xpath:idRelative"],
+        ["xpath=//li[6]/div/div[2]/div/div[2]/div/a/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c996d8f4-e180-4bd7-8128-585f66ef6f66",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#legoland\\ malaysia\\ day\\ pass .col-4 .la",
+      "targets": [
+        ["css=#legoland\\ malaysia\\ day\\ pass .col-4 .la", "css:finder"],
+        ["xpath=//li[@id='legoland malaysia day pass']/div/div[2]/div/div[2]/div/a/span/i", "xpath:idRelative"],
+        ["xpath=//li[6]/div/div[2]/div/div[2]/div/a/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ba2b1a5-48ea-493e-a62c-f0bae0ec13bd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ladda-label",
+      "targets": [
+        ["css=.ladda-label", "css:finder"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,' Book Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c7ee127-d926-4701-92d4-32ff08b7be75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ladda-label",
+      "targets": [
+        ["css=.ladda-label", "css:finder"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,' Book Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1addc9ff-b54b-45bf-b7f8-633f4070dc93",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["59cb23ca-e063-4c17-98ca-299feaa9d034"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
